@@ -1,12 +1,10 @@
 name: seekcommons_workshop
 channels:
-  - conda-forge
+  - conda
 dependencies:
   - python == 3.10
   - jupyter
   - h5py
-  - hdf5
-  - hdf5plugin
   - matplotlib
   - notebook
   - pandas
