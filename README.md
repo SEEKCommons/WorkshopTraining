@@ -14,6 +14,10 @@ notebooks.
 Notebooks for the workshop on Open Scientific Computing can be found in the 
 "ScientificComputing" folder.
 
+In addition to running in the browser, you can also use VS Code.  Start VS Code and then use Ctrl+Shift P to bring up the Command Palette.  Select 
+"Codespaces: Create New Codespace", then chose this repository.  The code will 
+still be running in the cloud, but you my find VS Code a better environment.
+
 You are welcome to clone this repository and set up your local environment. *Notice that a few settings are specific to the Codespaces configuration and will need adjusting in a custom environment.* We recommend you review [`environment.yml`](./environment.yml) for Python package dependencies, and the files in [`.devcontainer`](./.devcontainer) for additional dependencies.
 
 Enjoy and let us know what you think about these workshop materials! Please help us improve it by reporting __[issues](https://github.com/SEEKCommons/workshoptraining/issues)__ or submitting __[pull requests](https://github.com/SEEKCommons/workshoptraining/pulls)__!
