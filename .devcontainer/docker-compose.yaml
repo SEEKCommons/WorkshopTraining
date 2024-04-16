@@ -1,9 +1,7 @@
 version: "3"
 services:
   app:
-    build:
-      context: ..
-      dockerfile: .devcontainer/Dockerfile
+    image: "mcr.microsoft.com/devcontainers/universal:2"
     environment:
       - HS_ENDPOINT=http://localhost:5101
       - HS_USERNAME=vscode
