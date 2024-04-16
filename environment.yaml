@@ -1,8 +1,8 @@
-name: seekcommons_workshop
+name: seekcommons-workshop
 channels:
   - conda
 dependencies:
-  - python == 3.10
+  - python ==3.10
   - jupyter
   - h5py
   - matplotlib
